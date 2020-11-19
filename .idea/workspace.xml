@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b8c12c-c656-42ff-b9de-c5cc25e25781" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApartmentBuildingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiTokenController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ApartmentBuilding.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/ApartmentBuildingService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -126,6 +151,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kOudMXqVR54nJDAVmcg0NQ5Scf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,9 +159,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -151,11 +188,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605584046034</updated>
-      <workItem from="1605584048197" duration="6994000" />
+      <workItem from="1605584048197" duration="7282000" />
+      <workItem from="1605604743700" duration="458000" />
+      <workItem from="1605606307752" duration="485000" />
+      <workItem from="1605610293155" duration="1593000" />
+      <workItem from="1605667468676" duration="6137000" />
+      <workItem from="1605717261440" duration="3089000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605758834827">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605758834827" />
+    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1605673470694">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605673470694" />
+    <state x="538" y="280" width="789" height="615" key="find.popup" timestamp="1605718209101">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="538" y="280" width="789" height="615" key="find.popup/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605718209101" />
   </component>
 </project>
