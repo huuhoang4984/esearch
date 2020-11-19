@@ -5,18 +5,24 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\ApartmentBuilding;
+use App\Services\ApartmentBuildingService;
 
 class ApartmentBuildingController extends Controller
 {
 
+    public function __construct(ApartmentBuildingService $apartmentBuildingService)
+    {
+        $this->apartmentBuildingService = $apartmentBuildingService;
+    }
+
     public function index()
     {
-        return ApartmentBuilding::all();
+        return $this->apartmentBuildingService->getAll();
     }
 
     public function show($id)
     {
-        $apartmentBuilding = ApartmentBuilding::find($id);
+        $apartmentBuilding = $this->apartmentBuildingService->getById($id);
         return $apartmentBuilding;
     }
 

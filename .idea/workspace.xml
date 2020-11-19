@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b8c12c-c656-42ff-b9de-c5cc25e25781" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApartmentBuildingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiTokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ApartmentBuilding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/District.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/ApartmentBuildingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Contracts/ApartmentBuildingRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/ApartmentBuildingRepositoryEloquent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApartmentBuildingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApartmentBuildingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ApartmentBuildingService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ApartmentBuildingService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +149,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/prettus/laravel-validation" />
+      <path value="$PROJECT_DIR$/vendor/prettus/l5-repository" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kOudMXqVR54nJDAVmcg0NQ5Scf" />
@@ -159,12 +162,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Providers" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Providers" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
@@ -193,7 +197,7 @@
       <workItem from="1605606307752" duration="485000" />
       <workItem from="1605610293155" duration="1593000" />
       <workItem from="1605667468676" duration="6137000" />
-      <workItem from="1605717261440" duration="3089000" />
+      <workItem from="1605717261440" duration="6617000" />
     </task>
     <servers />
   </component>
@@ -213,17 +217,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605758834827">
+    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605761505014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605758834827" />
+    <state x="142" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605761505014" />
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605768291732">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605768291732" />
     <state x="659" y="455" key="NewPhpFileDialog" timestamp="1605673470694">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605673470694" />
-    <state x="538" y="280" width="789" height="615" key="find.popup" timestamp="1605718209101">
+    <state x="538" y="280" width="1025" height="615" key="find.popup" timestamp="1605769294239">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="538" y="280" width="789" height="615" key="find.popup/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605718209101" />
+    <state x="538" y="280" width="1025" height="615" key="find.popup/0.0.1680.1050/1680.0.2560.1440@0.0.1680.1050" timestamp="1605769294239" />
   </component>
 </project>
